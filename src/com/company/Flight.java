@@ -38,8 +38,8 @@ public class Flight {
         this.capacity = capacity;
     }
 
-    public void setSeatbooked(int seatbooked) {
-        this.seatbooked = seatbooked;
+    public void setSeatbooked() {
+        this.seatbooked=10;
     }
 
     public int getSeatbooked() {
