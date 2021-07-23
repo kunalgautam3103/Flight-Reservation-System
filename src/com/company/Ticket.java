@@ -28,7 +28,7 @@ public abstract class Ticket {
 
 
 
-    public void setPnrNumber(String pnrNumber) {
+    public void setPnrNumber() {
         this.pnrNumber = "A11103";
     }
     public String getPnrNumber(){
@@ -110,7 +110,7 @@ public abstract class Ticket {
     }
 
     public void getFlightDetails(){
-        System.out.println("Flight name "+ this.flight.getFlightNumber()+" , Airlines "+ this.flight.getAirline()+", flight capacity "+ this.flight.getCapacity());
+        System.out.println("Flight name : "+ this.flight.getFlightNumber()+" , Airlines: "+ this.flight.getAirline()+", flight capacity:"+ this.flight.getCapacity());
 
     }
     public void getPassengerDetails(){

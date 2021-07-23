@@ -7,6 +7,7 @@ public class RegularTicket extends Ticket{
     public RegularTicket(Passenger passenger,Flight flight,String from,String to, String depatureTime,String arrivalTime,String seatNo,float price,String specialservice){
         super(passenger,flight,from,to,depatureTime,arrivalTime,seatNo,price);
         this.specialservice=specialservice;
+        this.setPnrNumber();
 
     }
     public String getSpecialService(){
